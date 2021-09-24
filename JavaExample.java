@@ -16,14 +16,14 @@ class JavaExample
    void calculateArea(double l,double b,double h)
     {
      double tarea=1.5*l*b*h;
-     System.out.println("Area of the rectangle: "+tarea+" sq.units");  
+     System.out.println("Area of the triangle: "+tarea+" sq.units");  
     }
   public static void main(String[] args)
    {
     JavaExample obj=new JavaExample();
     obj.calculateArea(6.1f);
     obj.calculateArea(10,12);
-    obj.calculateArea(5.1);
+    obj.calculateArea(6.1);
     obj.calculateArea(2,5,8);
    }
  }
